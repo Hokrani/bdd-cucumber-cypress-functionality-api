@@ -4,7 +4,7 @@ const cucumber = require('cypress-cucumber-preprocessor').default
 
 module.exports = defineConfig({
   e2e: {
-    baseUrl: 'https://threadworks.mybijnessguru.xyz/users/sign_in',
+    baseUrl: '<Updatd url>',
     setupNodeEvents(on, config) {
       // implement node event listeners here
       on('file:preprocessor',cucumber())
