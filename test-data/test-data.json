@@ -1,7 +1,7 @@
 {
   "testApplication": {
-    "email": "7001176121",
-    "password": "12345678"
+    "email": "",
+    "password": ""
   },
   "apiDetails": {
     "baseURL": "https://dummy.restapiexample.com",
