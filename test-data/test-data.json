@@ -1,0 +1,11 @@
+{
+  "testApplication": {
+    "email": "7001176121",
+    "password": "12345678"
+  },
+  "apiDetails": {
+    "baseURL": "https://dummy.restapiexample.com",
+    "employeeAllRecord": "/api/v1/employee/1",
+    "employeeCreate": "/api/v1/create"
+  }
+}

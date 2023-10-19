@@ -1,0 +1,27 @@
+{
+  "name": "cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open",
+    "open": "cypress open",
+    "format": "prettier --write cucumber/**/*.{js,json} cypress/**/*.{js,json} test-data/*.{js,json}",
+    "format-check": "prettier --check cucumber/**/*.{js,json} cypress/**/*.{js,json} test-data/*.{js,json}",
+    "lint": "eslint . --ext .js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.17.4",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "prettier": "^3.0.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cucumber/stepDefinitions"
+  }
+}
