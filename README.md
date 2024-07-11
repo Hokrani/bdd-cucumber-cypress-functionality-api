@@ -1,4 +1,4 @@
-# HYVA-IOT-BDT
+# Application
 
 This is a test automation framework built using Cypress, Cucumber and JavaScript. Cypress is a Node.js library for automating web browsers, Cucumber is a tool for running automated tests written in plain language, and JavaScript that compiles to plain script.
 
